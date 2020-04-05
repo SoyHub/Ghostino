@@ -1,0 +1,368 @@
+* {
+  outline: none;
+}
+.player {
+  display: none;
+
+  /* background-color: black; */
+  /* border-radius: 90px; */
+  margin-bottom: -5px;
+  margin-left: 20px;
+  /* width:5000px */
+  /* color: rgb(109, 83, 0); */
+}
+#emptyList{
+
+  height: 50px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-panel {
+  /* width:50px; */
+  /* display:-moz-box; */
+  background: wheat;
+  /* -webkit-filter: hue-rotate(160deg) saturate(500px) blur(1px); */
+  color:rgb(192, 179, 1);
+  /* background-color: rgb(230, 15, 15); */
+}
+
+
+.search {
+  display: none;
+  /* display: none; */
+
+  /* margin: 0; */
+  /* margin-left: 40px; */
+  /* padding: 0; */
+}
+
+#search-form {
+  /* display: inline-flex; */
+  /* font-size: 20px; */
+}
+
+#search_field {
+  display: none;
+  width: 160px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("/css/img/searchicon.png");
+  background-size: 23px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+#search_field:focus {
+  width: 300px;
+}
+
+#submit_button {
+  display: none;
+  font-size: inherit;
+  border: 1px solid #7e7;
+  border-radius: 0 0em 0em 0;
+  background-color: #7d7;
+  border-left: 0;
+  padding: 0.2em 0.5em;
+  color: rgb(0, 0, 0);
+  outline: 0;
+  cursor: pointer;
+  width: 80px;
+  height: 33px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.219);
+  border-radius: 100%;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(208, 255, 0);
+}
+#openSearchBtn {
+  display: none;
+  position: absolute;
+  left: 70px;
+  top: 0px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/searchiconwhite.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#nextBtn {
+  display: none;
+  position: absolute;
+  left: -74px;
+  top: 0px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  /* background-color: rgb(0, 0, 0); */
+  /* color: darkmagenta; */
+  background-image: url("/css/img/nexticon.png");
+  background-size: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#repeatBtn {
+  display: none;
+  position: absolute;
+  left: -64px;
+  top: -60px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/repeaticonwhite3.png");
+  background-size: 19px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#autoNextOnBtn {
+  display: none;
+  position: absolute;
+  left: -18px;
+  top: -92px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/autonexticon.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#autoNextOffBtn {
+  display: none;
+  position: absolute;
+  left: -18px;
+  top: -92px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 255, 42);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/autonexticon.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#repeatForeverOnBtn {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: -93px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/repeaticonwhite2.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#repeatForeverOffBtn {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: -93px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(8, 247, 28);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/repeaticonwhite2.png");
+  background-size: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#backBtn {
+  display: none;
+  position: absolute;
+  left: -74px;
+  top: -30px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  /* background-color: rgb(0, 0, 0); */
+  /* color: darkmagenta; */
+  background-image: url("/css/img/backicon.png");
+  background-size: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#playBtn {
+  display: none;
+  position: absolute;
+  left: -44px;
+  top: -83px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/playiconwhite.png");
+  background-size: 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#pauseBtn {
+  display: none;
+  position: absolute;
+  left: -44px;
+  top: -83px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/pauseiconwhite.jpg");
+  background-size: 19px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#openMusicPlayerBtn {
+  display: none;
+  position: absolute;
+  left: 70px;
+  top: -30px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  background-image: url("/css/img/musiciconwhite.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#openChatBtn {
+  display: none;
+  position: absolute;
+  left: 60px;
+  top: -60px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  /* color: darkmagenta; */
+  background-image: url("/css/img/whitechaticon2.png");
+  background-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#openResultsBtn {
+  display: none;
+  position: absolute;
+  left: 38px;
+  top: -83px;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  background-image: url("/css/img/listwhiteicon2.png");
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+#openSearchBtn:hover,
+#openMusicPlayerBtn:hover,
+#openChatBtn:hover,
+#playBtn:hover,
+#pauseBtn:hover,
+#nextBtn:hover,
+#autoNextOnBtn:hover,
+#autoNextOffBtn:hover,
+#backBtn:hover,
+#repeatBtn:hover,
+#repeatForeverOnBtn:hover,
+#repeatForeverOffBtn:hover,
+#openResultsBtn:hover {
+  /* border: black 1px solid; */
+  box-shadow: inset rgb(250, 250, 250) 0px 0px;
+  width: 26px;
+  height: 26px;
+  /* background-size: 20px; */
+}
+#results {
+  -ms-overflow-style: none;
+  border-radius: 20px;
+  display: none;
+  /* display: flex; */
+  width: auto;
+  max-width: 340px;
+  height: 90px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: justify;
+}
+.artist_container {
+  align-items: center;
+  /* border: 1px solid black;*/ /*used this to align everything in the grid*/
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  /* padding-top: 1em; */
+  width: auto;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgba(28, 177, 157, 0.781);
+  outline: none;
+}
+img {
+  /* box-shadow: 0.25em 0.25em 0.5em; */
+  height: 100px;
+}
+
+img:hover {
+  width: 105px;
+  cursor: pointer;
+  opacity: 0.9;
+}
