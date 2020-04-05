@@ -36,4 +36,4 @@ I can add explaining comments at the end of the project if someone is interested
 - Playlists using database (Soon)
 - Chat bubble. (Soon) 
 # USAGE 
-*It can be tried and seen on the netlify **[TEMPORARY DOMAIN](www.ghostino.netlify.com)**.*
+*It can be tried and seen on the netlify **[TEMPORARY DOMAIN](https://ghostino.netlify.com/)**.*
