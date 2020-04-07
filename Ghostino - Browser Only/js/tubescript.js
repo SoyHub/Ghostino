@@ -76,7 +76,7 @@ function extractVideoCode(src) {
   src =
     "https://www.youtube.com/embed/" +
     src +
-    "?controls=0&autoplay=1&enablejsapi=1&html5=1&origin=http://localhost:5500";
+    "?controls=1&autoplay=1&enablejsapi=1&html5=1&origin=http://localhost:5500";
   // console.log(src);
   return src;
 }
