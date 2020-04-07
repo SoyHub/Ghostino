@@ -28,7 +28,10 @@ audio::-webkit-media-controls-panel {
   color:rgb(192, 179, 1);
   /* background-color: rgb(230, 15, 15); */
 }
-
+audio::-webkit-media-controls-panel {
+  background-color: rgba(28, 177, 157, 0.781);
+  outline: none;
+}
 
 .search {
   display: none;
@@ -52,7 +55,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url("/css/img/searchicon.png");
+  background-image: url("img/searchicon.png");
   background-size: 23px;
   background-position: 10px 10px;
   background-repeat: no-repeat;
@@ -103,7 +106,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/searchiconwhite.png");
+  background-image: url("img/searchiconwhite.png");
   background-size: 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,7 +123,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   /* background-color: rgb(0, 0, 0); */
   /* color: darkmagenta; */
-  background-image: url("/css/img/nexticon.png");
+  background-image: url("img/nexticon.png");
   background-size: 26px;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,7 +140,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/repeaticonwhite3.png");
+  background-image: url("img/repeaticonwhite3.png");
   background-size: 19px;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +157,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/autonexticon.png");
+  background-image: url("img/autonexticon.png");
   background-size: 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -171,7 +174,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 255, 42);
   /* color: darkmagenta; */
-  background-image: url("/css/img/autonexticon.png");
+  background-image: url("img/autonexticon.png");
   background-size: 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -188,7 +191,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/repeaticonwhite2.png");
+  background-image: url("img/repeaticonwhite2.png");
   background-size: 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -205,7 +208,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(8, 247, 28);
   /* color: darkmagenta; */
-  background-image: url("/css/img/repeaticonwhite2.png");
+  background-image: url("img/repeaticonwhite2.png");
   background-size: 17px;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,7 +225,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   /* background-color: rgb(0, 0, 0); */
   /* color: darkmagenta; */
-  background-image: url("/css/img/backicon.png");
+  background-image: url("img/backicon.png");
   background-size: 26px;
   background-position: center;
   background-repeat: no-repeat;
@@ -239,7 +242,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/playiconwhite.png");
+  background-image: url("img/playiconwhite.png");
   background-size: 33px;
   background-position: center;
   background-repeat: no-repeat;
@@ -256,7 +259,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/pauseiconwhite.jpg");
+  background-image: url("img/pauseiconwhite.jpg");
   background-size: 19px;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,7 +275,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 100%;
   border: none;
   background-color: rgb(0, 0, 0);
-  background-image: url("/css/img/musiciconwhite.png");
+  background-image: url("img/musiciconwhite.png");
   background-size: 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,7 +292,7 @@ audio::-webkit-media-controls-panel {
   border: none;
   background-color: rgb(0, 0, 0);
   /* color: darkmagenta; */
-  background-image: url("/css/img/whitechaticon2.png");
+  background-image: url("img/whitechaticon2.png");
   background-size: 13px;
   background-position: center;
   background-repeat: no-repeat;
@@ -305,7 +308,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 100%;
   border: none;
   background-color: rgb(0, 0, 0);
-  background-image: url("/css/img/listwhiteicon2.png");
+  background-image: url("img/listwhiteicon2.png");
   background-size: 12px;
   background-position: center;
   background-repeat: no-repeat;
@@ -352,17 +355,14 @@ audio::-webkit-media-controls-panel {
   /* padding-top: 1em; */
   width: auto;
 }
-audio::-webkit-media-controls-panel {
-  background-color: rgba(28, 177, 157, 0.781);
-  outline: none;
-}
+
 img {
   /* box-shadow: 0.25em 0.25em 0.5em; */
   height: 100px;
 }
 
 img:hover {
-  width: 105px;
+ 
   cursor: pointer;
   opacity: 0.9;
 }

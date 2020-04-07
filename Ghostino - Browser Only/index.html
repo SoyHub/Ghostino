@@ -7,74 +7,113 @@
     <title>Ghost</title>
     <link rel="stylesheet" href="css/styleghost.css" />
     <link rel="stylesheet" href="css/styleplayer.css" />
-    <!-- <link rel="stylesheet" href="css/audiostyle.css" /> -->
-    <link rel="shortcut icon" href="css/img/ghost.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
+    <link rel="stylesheet" href="css/youtubeplayer.css" />
+    <link rel="stylesheet" href="css/audiostyle.css" />
+    <link rel="shortcut icon" href="css/img/ghost.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
   </head>
   <body>
     <div id="container">
       <!-- <marquee behavior="scroll" direction="left">Here is some scrolling text... right to left!</marquee> -->
-      <marquee class="chat-bubble" id="ghost-bubble" behavior="scroll" direction="left">....</marquee>
-      <img id="imageInHands" src="" height="200" onclick="hideImage()">
+      <marquee
+        class="chat-bubble"
+        id="ghost-bubble"
+        behavior="scroll"
+        direction="left"
+        >....</marquee
+      >
+      <img id="imageInHands" src="" height="200" onclick="hideImage()" />
       <!-- MUSIC PLAYER -->
-       <section id="musicPlayer" class="player">
-         <audio id="music-player" controls="controls" src=""></audio>
-        </section>
-        
-        <!-- SEARCH -->
-        <section id="searchBar" class="search">
-          <div id="search-form">
-            <input
+      <section id="musicPlayer" class="player">
+        <audio id="music-player" controls="controls" src=""></audio>
+      </section>
+
+      <!-- SEARCH -->
+      <section id="searchBar" class="search">
+        <div id="search-form">
+          <input
             autocomplete="off"
             type="text"
             name="search"
             id="search_field-old"
             placeholder="Search for Artist"
             value=""
-            />
-            <!-- <input type="submit" id="submit_button" value="Search" /> -->
+          />
+          <!-- <input type="submit" id="submit_button" value="Search" /> -->
         </div>
       </section>
-      
-      <!-- RESULTS -->
+
+      <!-- SOUNDCLOUD RESULTS -->
       <section id="results">
         <input
-        id="emptyList"
-        type="text"
-        placeholder="Please search first..."
-        autocomplete="off"
-        disabled="true";
+          id="emptyList"
+          type="text"
+          placeholder="Please search first..."
+          autocomplete="off"
+          disabled="true"
+          ;
         />
       </section>
       <input
-      id="search_field"
-      type="text"
-      placeholder="Search.."
-      autocomplete="off"
+        id="search_field"
+        type="text"
+        placeholder="Search.."
+        autocomplete="off"
       />
+
+      <!-- Youtube -->
       <input
-      id="ghost-input"
+        id="search-entry"
+        type="text"
+        placeholder="Youtube Search.."
+        autocomplete="off"
+      />
+      <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+      
+    
+      <section id="search-results"></section>
+      <section id="no-results" hidden>
+        <p>Sorry, no results were found for your query.</p>
+      </section>
+      <div id="loading">
+        <img id="loadingImg" src="css/img/loading4.gif" >
+      </div>
+      
+      <!--  -->
+
+      <input
+        id="ghost-input"
         type="text"
         placeholder="How can I help you?"
         autocomplete="off"
-        />
-        <div class="ghost">
-          <!-- <div class="chat-bubble">hello</div> -->
-          <div class="ghost__face">
-            <button id="openSearchBtn"></button>
-            <button id="openMusicPlayerBtn"></button>
-            <button id="openChatBtn"></button>
-            <button id="openResultsBtn"></button>
-            <button id="nextBtn"></button>
-            <button id="backBtn"></button>
-            <button id="repeatBtn"></button>
-            <button id="playBtn"></button>
-            <button id="pauseBtn"></button>
-            <button id="repeatForeverOnBtn"></button>
-            <button id="repeatForeverOffBtn"></button>
-            <button id="autoNextOnBtn"></button>
-            <button id="autoNextOffBtn"></button>
+      />
+      <div class="ghost">
+        <!-- <div class="chat-bubble">hello</div> -->
+        <div class="ghost__face">
+          <button id="openSearchBtn"></button>
+          <button id="openMusicPlayerBtn"></button>
+          <button id="openChatBtn"></button>
+          <button id="openResultsBtn"></button>
+          <button id="nextBtn"></button>
+          <button id="backBtn"></button>
+          <button id="repeatBtn"></button>
+          <button id="playBtn"></button>
+          <button id="pauseBtn"></button>
+          <button id="repeatForeverOnBtn"></button>
+          <button id="repeatForeverOffBtn"></button>
+          <button id="autoNextOnBtn"></button>
+          <button id="autoNextOffBtn"></button>
+          <!-- youtube btns -->
+          <button id="youtubeSearchBtn"></button>
+          <button id="openVideoPlayerBtn"></button>
+          <button id="openVideoResultsBtn"></button>
+          <button id="openChatVideoBtn"></button>
+          <!-- <button id="videoPlayBtn"></button>
+          <button id="videoPauseBtn"></button> -->
+          <!--  -->
           <div class="ghost__eyes">
             <div class="ghost__eyes-l"></div>
             <div class="ghost__eyes-r"></div>
@@ -89,7 +128,12 @@
         <div class="ghost__legs"></div>
       </div>
     </div>
+
+    <script src="js/youtubefunctions.js"></script>
+    <script src="js/tubescript.js"></script>
     <script src="js/scriptghost.js"></script>
     <script src="js/scriptplayer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
   </body>
 </html>

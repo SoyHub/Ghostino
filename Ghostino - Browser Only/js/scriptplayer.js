@@ -201,6 +201,9 @@ openChatBtn.addEventListener("click", () => {
   searchIn.style = "display:none;";
   results.style = "display:none";
   musicPlayer.style = "display:none;";
+  searchInput.style="display:none";
+  videoPlayer.style="display:none";
+  videoList.style="display:none";
 
   legs.style = "display:block;";
 });

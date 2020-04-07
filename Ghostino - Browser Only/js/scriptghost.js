@@ -272,6 +272,17 @@ input.onkeydown = e => {
       message("Loading.......");
       showButtonsWithAnimation("heartBeat", "heartBeat","heartBeat", 250);
       // ghostBubble.style = "display:block;";
+    } 
+     else if (
+      (valueOfInput.includes("play") || valueOfInput.includes("metti")) &&
+      (valueOfInput.includes("youtube") || valueOfInput.includes("video"))
+    ) {
+      message("Loading.......");
+      inputGhost.style="display:none";
+      searchInput.style="display:block";
+      openChatVideoBtn.style = "display:block";
+    
+      // openChatBtn.style="display:block";
     } else if (
       valueOfInput.includes("ci sentiamo") ||
       valueOfInput.includes("devo andare")
