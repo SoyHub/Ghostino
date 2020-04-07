@@ -19,6 +19,7 @@ body {
   overflow: hidden;
   box-shadow: inset rgba(49, 31, 78, 0.568) 3px 3px 250px;
 }
+
 #imageInHands {
   display: none;
   -webkit-app-region: drag;
@@ -29,7 +30,7 @@ body {
   position: relative;
 }
 /* #ghost-input{
-    display: block;
+    display: none;
   } */
 input[type="text"] {
   padding: 1em;
