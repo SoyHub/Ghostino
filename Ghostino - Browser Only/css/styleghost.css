@@ -14,7 +14,7 @@ body {
   align-items: center;
 
   background-color: transparent;
-  background-image: url("img/wallpaper3.jpg");
+  /* background-image: url("img/wallpaper3.jpg"); */
   background-size: cover;
   overflow: hidden;
   box-shadow: inset rgba(49, 31, 78, 0.568) 3px 3px 250px;
