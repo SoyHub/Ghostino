@@ -31,7 +31,8 @@ I can add explaining comments at the end of the project if someone is interested
 - Shows its son when asked. :P
 - Cool animations.
 - The most realistic Ancient Egypt Illustration backgrounds by Ubisoft.
-- Video API. (Soon)
+- Youtube API. (Ask to play youtube videos)
+
 - Photo Gallery. (Soon)
 - Playlists using database (Soon)
 - Chat bubble. (Soon) 
