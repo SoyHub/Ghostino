@@ -6,11 +6,7 @@ It is packaged, can be installed on desktop and excuted as an exe file.
 
 
 
-<p align="center">
-  <img src="https://purepng.com/public/uploads/medium/purepng.com-ghostghosthauntpoltergeistspiritghosts-1701527775729cbty7.png" height="60px" />
-  <br>
-  <b>Ghostino's Son</b>
-</p>
+
 
 #
 
@@ -39,11 +35,21 @@ I can add explaining comments at the end of the project if someone is interested
   
 - Changes background when asked.
 - Shows photos when asked.
-- Shows its son when asked. :P
+- Shows its son when asked. :P 
+
+  - <p align="left">
+  
+  <img src="https://purepng.com/public/uploads/medium/purepng.com-ghostghosthauntpoltergeistspiritghosts-1701527775729cbty7.png" height="60px" />
+  <br>
+  <b>Ghostino's Son</b>
+</p>
+
 - Cool animations.
+
 - The most realistic Ancient Egypt Illustration backgrounds by Ubisoft.
 - Youtube API. (Ask to play youtube videos)
 
+- Playing History (Soon)
 - Photo Gallery. (Soon)
 - Playlists using database (Soon)
 - Chat bubble. (Soon) 
