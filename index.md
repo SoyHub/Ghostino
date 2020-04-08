@@ -8,14 +8,14 @@ It is packaged, can be installed on desktop and excuted as an exe file.
 
 
 
-#
+
 
 # Status
 This is not a real project. It's only for **LEARNING** and **FUN** purposes.
 This project is not yet finished, all the updates will be uploaded on the (Only Browser) version, in order for it to be seen and tried by users.
 The code is as clear and available as I could, to help juniors and students who are still learning the basics.
 I can add explaining comments at the end of the project if someone is interested.
-#
+
 
 # FEATURES
 - The browser version works responsively on (Chrome, Safari, Edge, Mobile Browsers).
@@ -41,8 +41,7 @@ I can add explaining comments at the end of the project if someone is interested
   
   <img src="https://purepng.com/public/uploads/medium/purepng.com-ghostghosthauntpoltergeistspiritghosts-1701527775729cbty7.png" height="60px" />
   <br>
-  <b>Ghostino's Son</b>
-</p>
+  <b>Ghostino's Son</b></p>
 
 - Cool animations.
 
@@ -53,7 +52,7 @@ I can add explaining comments at the end of the project if someone is interested
 - Photo Gallery. (Soon)
 - Playlists using database (Soon)
 - Chat bubble. (Soon) 
-#
+
 
 # USAGE 
 *It can be tried and seen on the netlify **[TEMPORARY DOMAIN](https://ghostino.netlify.com/)**.*
