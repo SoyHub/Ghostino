@@ -38,10 +38,9 @@ I can add explaining comments at the end of the project if someone is interested
 - Shows its son when asked. :P 
 
   - <p align="left">
-  
   <img src="https://purepng.com/public/uploads/medium/purepng.com-ghostghosthauntpoltergeistspiritghosts-1701527775729cbty7.png" height="60px" />
   <br>
-  <b>Ghostino's Son</b></p>
+  <b>Ghostino's Son</b>
 
 - Cool animations.
 
